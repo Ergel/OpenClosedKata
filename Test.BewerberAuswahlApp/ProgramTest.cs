@@ -38,6 +38,9 @@ namespace Kunde1.BewerberAuswahl.Test.UI
                     expectedAusgabe.AppendFormat("Özgür kann hier nicht arbeiten!\r\n");
                     expectedAusgabe.AppendFormat("Ursula kann hier arbeiten!\r\n");
                     expectedAusgabe.AppendFormat("Maurice kann hier nicht arbeiten!\r\n");
+                    expectedAusgabe.AppendFormat("Doris kann hier nicht arbeiten!\r\n");
+                    expectedAusgabe.AppendFormat("Doris kann hier nicht arbeiten!\r\n");
+                    expectedAusgabe.AppendFormat("Renate kann hier nicht arbeiten!\r\n");
                     expectedAusgabe.AppendFormat("Bitte drücken Sie eine belibige Taste um die Anwendung zu beenden.\r\n");
 
 

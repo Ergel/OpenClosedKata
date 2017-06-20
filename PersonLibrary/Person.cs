@@ -4,16 +4,22 @@ namespace PersonLibrary
 {
     public class Person
     {
-        public Person(int alter, string vorname, string emailAdresse)
+        public Person(int alter, string vorname)
         {
             Alter = alter;
             BewerberVorname = vorname;
+
+        }
+
+        public Person(int alter, string vorname, string emailAdresse) : this(alter, vorname)
+        {
             MailAdresse = emailAdresse;
+
         }
 
         public int Alter { get; private set; }
         public string BewerberVorname { get; }
-        public string Email { get; }
+        public string MailAdresse { get; private set; }
 
         public void SendMail()
         {
@@ -21,6 +27,6 @@ namespace PersonLibrary
             Console.WriteLine("Mail mit dem Betreff: \"Einladung zum Bewerbungsgespräch\" wurde an {0} geschickt.", MailAdresse);
         }
 
-        public string MailAdresse { get; private set; }
+
     }
 }

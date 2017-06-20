@@ -50,6 +50,10 @@
     <None Include="BewerberListe.csv" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Kunde2.PersonenFilter\Kunde2.PersonenFilter.csproj">
+      <Project>{47F0E22B-0623-463A-94CB-57AF80E2F9AE}</Project>
+      <Name>Kunde2.PersonenFilter</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PersonLibrary\PersonLibrary.csproj">
       <Project>{488ff15b-59e3-4130-8bcd-80eb3cdd033b}</Project>
       <Name>PersonLibrary</Name>
